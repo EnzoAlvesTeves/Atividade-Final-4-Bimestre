@@ -50,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .titulo > h2 {
@@ -70,7 +71,7 @@
 
 .imagem>img{
     width: 300px;
-    height: 2   00px;
+    height: 200px;
 }
 
 .conteudo> h2 {
