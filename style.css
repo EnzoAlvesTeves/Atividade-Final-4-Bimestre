@@ -6,6 +6,9 @@ body.imagem-home {
     position: relative;
     height:100vh;
 }
+body {
+    background-color: darkgray;
+}
 
 .apresentacao {
     display: flex;
