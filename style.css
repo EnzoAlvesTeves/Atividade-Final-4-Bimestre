@@ -1,3 +1,27 @@
+.bem-vindo-home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bem-vindo-home {
+    flex: 0 10px;
+}
+
+.bem-vindo-home-mensagem {
+    flex: 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bem-vindo-home-mensagem>span {
+    font-size: large;
+    font-weight: bold;
+}
+
 body.imagem-home {
     background-image: url("imagens/fundo.jpg");
     background-position: center;
@@ -6,6 +30,7 @@ body.imagem-home {
     position: relative;
     height:100vh;
 }
+
 body {
     background-color: rgba(202, 200, 200, 0.445)
 }
@@ -17,6 +42,22 @@ body {
     align-content: stretch;
     align-items: flex-start;
 }
+
+.apresentacao-sobre-mim {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-sobre-mim {
+    padding: 5px;
+    align-self: center;
+}
+
+.imagem-sobre-mim>img {
+    width: 200px;
+    height: 250px;
+}
+
 
 .titulo {
     display: flex;
