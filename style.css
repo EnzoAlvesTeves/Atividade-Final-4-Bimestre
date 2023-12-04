@@ -7,7 +7,7 @@ body.imagem-home {
     height:100vh;
 }
 body {
-    background-color: darkgray;
+    background-color: rgba(202, 200, 200, 0.445)
 }
 
 .apresentacao {
